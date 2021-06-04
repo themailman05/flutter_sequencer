@@ -16,7 +16,7 @@ A new flutter plugin project.
   s.source_files = 'Classes/**/*'
   s.xcconfig = { 'USER_HEADER_SEARCH_PATHS' => '"${PROJECT_DIR}/.."/Classes/CallbackManager/*,"${PROJECT_DIR}/.."/Classes/Scheduler/*' }
   s.dependency 'Flutter'
-  s.dependency 'AudioKit'
+  s.dependency 'AudioKit', '4.11.2 '
   s.static_framework = true
   s.platform = :ios, '12.0'
 
